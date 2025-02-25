@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
 
-import selectAll from "./routes/getAll";
+import selectAll from "./routes/selectAll";
 import storeData from "./routes/storeData";
 
 const app = express();
